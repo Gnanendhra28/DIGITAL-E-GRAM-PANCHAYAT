@@ -9,13 +9,16 @@ The goal of this project is to bridge the digital divide in rural governance by 
 🎯 Key Features
 
 👥 For Citizens (Users)
+
 User Registration & Login: Secure authentication via Firebase.
 View Available Services: Browse and search through all Panchayat services.
 Apply for Services: Submit service applications with relevant information.
 Track Application Status: Real-time updates on application progress.
 Manage Profile: View and update personal user details.
 Logout: Secure session termination.
+
 🧑‍💼 For Admin/Officer
+
 Admin Login: Secure login access for authorized personnel.
 Service Management: Add, update, or delete available public services.
 Application Review: Monitor all citizen applications.
@@ -25,6 +28,7 @@ Logout: End admin session safely.
 Staff Login: Simple and secure access to staff panel.
 Service Overview: View services and associated applications.
 Update Status: Update progress or completion of assigned tasks.
+
 🧰 Technology Stack
 
 The Digital E-Gram Panchayat platform leverages modern web technologies to ensure scalability, responsiveness, and performance:
@@ -36,41 +40,39 @@ Backend & Services:
 Firebase Authentication: Handles secure login and registration.
 Firebase Firestore: NoSQL cloud database for storing user data, services, and application information.
 Firebase Hosting: Fast and secure static web hosting.
+
 🗂 Folder Structure (Overview)
 
 📁 /project-root
-│
-├── 📁 css/               # Styling files
-│   └── style.css
-│
-├── 📁 js/                # JavaScript logic for interactivity and Firebase integration
-│   ├── auth.js
-│   ├── firebase.js
-│   └── dashboard.js
-│
-├── 📁 pages/             # User-facing HTML pages
-│   ├── login.html
-│   ├── register.html
-│   ├── dashboard.html
-│   └── apply-service.html
-│
-├── 📄 index.html         # Home/Landing page
-└── 📄 README.md          # Project documentation
+
+![alt text](<Screenshot 2025-06-30 at 3.23.34 PM.png>)
+
 🚀 Getting Started
 
 To get this project running locally:
 
 Clone the repository
+
 git clone https://github.com/yourusername/digital-e-gram-panchayat.git
+
 Open in your preferred editor (e.g., VS Code)
+
 Setup Firebase
+
 Go to Firebase Console
+
 Create a new project
+
 Enable Authentication and Firestore
+
 Add your Firebase config to firebase.js
+
 Run in browser
+
 Open index.html in your browser or deploy using Firebase Hosting:
+
 firebase deploy
+
 📸 Screenshots
 
 ![alt text](<Screenshot 2025-06-30 at 3.19.08 PM.png>)
@@ -81,6 +83,7 @@ Matta Gnanendhra
 
 🔗 Project URL: https://sports-buddy-2e1ea.web.app
 🔗 GitHub: Gnanendhra28
+
 📜 License
 
 This project is licensed under the Apache 2.0 License.
